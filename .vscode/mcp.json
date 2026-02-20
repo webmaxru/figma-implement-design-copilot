@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "com.figma.mcp/mcp": {
+			"type": "http",
+			"url": "https://mcp.figma.com/mcp",
+			"gallery": "https://api.mcp.github.com",
+			"version": "1.0.3"
+		},
+	"Framelink MCP for Figma": {
+      		"command": "cmd",
+      		"args": ["/c", "npx", "-y", "figma-developer-mcp", "--figma-api-key=YOUR_FIGMA_TOKEN", "--stdio"]
+    	},
+  }
+}
